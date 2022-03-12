@@ -5,3 +5,5 @@ WORKDIR /js-fastapi-monitoring
 COPY . /js-fastapi-monitoring
 EXPOSE 100
 CMD ["uvicorn", "app.api:app", "--host", "0.0.0.0", "--port", "100"]
+
+
